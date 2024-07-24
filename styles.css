@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #894eb7;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -33,12 +33,12 @@ section {
 }
 
 .video-container {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px 0;
     position: fixed;
