@@ -1,5 +1,8 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Example JavaScript to enhance the page
-    console.log('Document is fully loaded');
-    // Add your custom scripts here
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+
+    menuToggle.addEventListener('click', () => {
+        nav.classList.toggle('nav--visible');
+    });
 });
