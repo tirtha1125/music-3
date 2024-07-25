@@ -61,10 +61,28 @@ body {
     color: #4CAF50;
 }
 
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .nav ul {
+    .nav {
         display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul {
         flex-direction: column;
     }
 
@@ -72,7 +90,11 @@ body {
         margin: 10px 0;
     }
 
-    .nav ul.nav--visible {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav.nav--visible {
         display: flex;
     }
 }
